@@ -18,7 +18,7 @@ function getCharacterInfo(character) {
     .then((data) => {
         console.log({data});
         document.getElementById("character-image").src = "https://api.genshin.dev/characters/" + character + "/icon";
-        const thingsToSet = ['name', 'rarity', 'vision', 'weapon'];
+        const thingsToSet = ['name', 'rarity', 'vision', 'weapon', 'description'];
         for (const property of thingsToSet) {
             const text = document.getElementById(property);
             text.textContent = data[property];
