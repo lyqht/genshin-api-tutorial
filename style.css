@@ -1,0 +1,108 @@
+.portfolio-container {
+    height: 300px;
+    width: 900px;
+    display: grid;
+    background-color: white;
+    color: white;
+    font-family: 'Noto Serif', serif;    
+    grid-template-columns: 1fr 4fr;
+    max-width: 100%;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .25);
+    background-blend-mode: darken;
+    background-image: url("https://static.wikia.nocookie.net/gensin-impact/images/9/96/Liyue.jpg/revision/latest?cb=20200331203812")
+}
+
+p {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Left Column Styling */
+
+.left-column {
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+}
+
+.name-input {
+    width: 100%;
+}
+
+.char-image-container {
+    display: grid;
+    z-index: 2;
+    place-items: center;
+    width: 90px;
+    height: 90px;
+}
+
+.char-image-background {
+    border-radius: 50%;
+    border: 5px solid whitesmoke;
+    background-color: rgb(212, 183, 127);
+    width: 100%;
+}
+
+.char-image {
+    border-radius: 50%;
+    width: 100%;
+    object-fit: fill;
+}
+
+/* Right column styling */
+.right-column {
+    padding-top: 16px;
+    text-align: start;
+    height: inherit;
+    padding-left: 20px;
+    padding-right: 32px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.name-header {
+    margin: 0;
+    z-index: 2;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: bold;
+}
+
+.name-container {
+    background-color: rgba(0,0,0,0.1);
+    width: 900px;
+    z-index: 0;
+    margin-left: -16%;
+    position: absolute;
+    height: 45px;
+}
+
+#description {
+    font-size: 18px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+    margin: 0;
+    padding-top: 4px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.detail-container > p {
+    margin: 0;
+    padding-block-end: 4px;
+}
+
