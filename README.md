@@ -20,7 +20,7 @@ End - with data retrieved from API, you can change it to any character
 
 ## FAQ
 
-### Why does the start & end product look about the same? 😕
+### Why does the hard-coded preview & end product look about the same? 😕
 
 This tutorial is ***not*** here to teach you how to make things look pretty. In reality, many websites already look good without the use of API.
 
