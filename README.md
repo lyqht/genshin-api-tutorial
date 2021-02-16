@@ -6,13 +6,17 @@ If you're following along the tutorial, make sure that you're at the `/start` br
 
 ## Preview Demo
 
-Start - with hard coded values of my fav ~~trap~~ support character
+Start - without any values
 
-![Preview of the start demo](./start_preview.png)
+![](./screenshots/start_preview.png)
 
-End - with data retrieved from API
+After filling the start template with hard coded values of my fav ~~trap~~ support character
 
-![Preview of the end demo](./end_preview.png)
+![Preview of the start demo](./screenshots/mid_preview.png)
+
+End - with data retrieved from API, you can change it to any character
+
+![Preview of the end demo](./screenshots/end_preview.png)
 
 ## FAQ
 
@@ -28,7 +32,7 @@ if you look closely enough 👀 in the end product, there is an additional dropd
 
 <details><summary>Reveal the source</summary>
 
-![reference picture](sample.jpg)
+![reference picture](./screenshots/sample.jpg)
 
 Yes, the design of this graphic is referenced from the namecard in game 😆 If i could, i would probably replicate it entirely just for fun but we can't retrieve player's information directly (duh) to put it in, so for clarity sake, i only made do with this current design.
 
