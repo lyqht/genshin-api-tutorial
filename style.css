@@ -10,9 +10,9 @@
     padding-bottom: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, .25);
+    background-color: rgba(0, 0, 0, .40);
     background-blend-mode: darken;
-    background-image: url("./background.jpg")
+    background-image: url("./Liyue.jpg")
 }
 
 p {
