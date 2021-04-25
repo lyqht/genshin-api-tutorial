@@ -2,7 +2,7 @@
 
 This repository holds the codebase for building a simple website with the fan-made Genshin Impact API by Genshin.dev [here](https://github.com/genshindev/api).
 
-If you're following along the tutorial, make sure that you're at the `/start` branch. But if you got lost at a certain step, feel free to have a look at `/completed` branch.
+If you're following along the [tutorial article series](https://community.codenewbie.org/lyqht/how-to-navigate-a-web-project-using-the-browser-inspector-and-test-an-open-source-api-with-postman-part-1-3nmi), make sure that you're at the `/start` branch. But if you got lost at a certain step, feel free to have a look at `/completed` branch.
 
 ## Preview Demo
 
